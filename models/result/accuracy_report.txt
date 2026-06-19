@@ -1,0 +1,22 @@
+==================================================
+  EMAIL SPAM DETECTION - MODEL EVALUATION REPORT
+==================================================
+
+Accuracy:  0.9915  (99.15%)
+Precision: 1.0000  (100.00%)
+Recall:    0.9778  (97.78%)
+F1 Score:  0.9888  (98.88%)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         Ham       0.99      1.00      0.99        72
+        Spam       1.00      0.98      0.99        45
+
+    accuracy                           0.99       117
+   macro avg       0.99      0.99      0.99       117
+weighted avg       0.99      0.99      0.99       117
+
+Confusion Matrix:
+[[72  0]
+ [ 1 44]]
